@@ -29,7 +29,7 @@ import com.analytics.app.service.RawDataService;
 import com.analytics.app.service.SparkService;
 
 @RestController
-@RequestMapping("/cassandra")
+@RequestMapping("/analytics")
 public class AnalyticsController {
 
 	@Autowired
